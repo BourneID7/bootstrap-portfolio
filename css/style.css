@@ -1,0 +1,24 @@
+
+body {
+    background: url(../images/car-bkgd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.containerBkgd {
+    background-color: #fff;
+    opacity: 0.95;
+}
+main p:first-of-type {
+    margin-top: 30px;
+}
+.imgBox {
+    max-height: 300px;
+    overflow: hidden;
+}
+footer p {
+    color: #fff;
+    font-size: 80%;
+    text-align: center;
+    padding-top: 10px;
+}
