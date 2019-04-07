@@ -23,6 +23,29 @@ footer p {
     text-align: center;
     padding-top: 10px;
 }
-.btnBottom {
+.bottom {
     margin-bottom: 20px;
+}
+.thumbnailLabel {
+    background-color: #17A2B8;
+    color: #fff;
+    text-align: center;
+    box-sizing: border-box;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    height: auto;
+    padding: 5px 30px 5px 30px;
+    position: absolute;
+    float: left;
+    bottom: 0;
+    z-index: 50;
+}
+
+
+/* Use a media query to add a breakpoint at 640px: */
+@media screen and (max-width: 800px) {
+    .imgBottom {
+        margin-bottom: 10px;
+    }
 }
