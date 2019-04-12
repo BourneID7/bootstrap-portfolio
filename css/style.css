@@ -28,17 +28,29 @@ footer p {
 .bottom {
     margin-bottom: 20px;
 }
+/* change width property from default bootstrap style 100% to fix thumbnailLabel popping out of image width on screen size max 800px" */
+.col-md-3 {
+    position: relative;
+    width: fit-content;
+    padding-right: 15px;
+    padding-left: 15px;
+}
 .thumbnailLabel {
     background-color: #17A2B8;
     color: #fff;
     text-align: center;
-    padding: 5px 10px;
+    padding: 5px 0 5px 0;
+    margin: 0;
     position: relative;
     bottom: 3.5rem;
     z-index: 50;
 }
 .thumbnailLabel a {
     text-decoration: none;
+}
+.thumbnailLabel:hover {
+    text-decoration-line: none;
+    background-color: #;
 }
 
 
